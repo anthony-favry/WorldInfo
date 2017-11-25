@@ -26,8 +26,6 @@ class User{
 			return $return;
 		}
 
-		// $password = password_hash($password, PASSWORD_BCRYPT);
-
 		$request = ' SELECT * FROM `'.self::TABLE_NAME.'` WHERE `login` = :login LIMIT 1';
 
 		$params = array(
