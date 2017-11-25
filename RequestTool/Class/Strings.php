@@ -17,7 +17,7 @@ class Strings{
 		'error-update_request_status' => 'Le statut de la demande n\'a pas pu être mis à jour',
 	);
 
-	public function Get(string $string){;
+	public function Get(string $string){
 		return $this->strings[$string];
 	}
 }
